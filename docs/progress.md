@@ -59,7 +59,7 @@
 - [ ] ⚠️ **Docker Desktop chưa chạy** — cần khởi động thủ công
 - [ ] `docker compose up -d`
 - [ ] `npx prisma db push`
-- [ ] `npm run db:seed`
+- [ ] `npx prisma db seed `
 - [ ] `npm run db:embed` (generate embeddings)
 - [ ] Verify bằng Prisma Studio
 
