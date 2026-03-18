@@ -2,11 +2,11 @@
 "use client";
 
 import { useChat } from "@ai-sdk/react";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import styles from "./page.module.css";
 
 export default function Home() {
-  const { messages, input, handleInputChange, handleSubmit, isLoading } = useChat({
+  const { messages, append, isLoading } = useChat({
     api: "/api/chat",
     initialMessages: [
       {
@@ -17,6 +17,7 @@ export default function Home() {
     ],
   });
 
+  const [inputVal, setInputVal] = useState("");
   const messagesEndRef = useRef<HTMLDivElement>(null);
 
   // Auto scroll to bottom smoothly when new messages arrive
@@ -34,6 +35,14 @@ export default function Home() {
     ));
   };
 
+  const onSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!inputVal.trim() || isLoading) return;
+
+    append({ role: "user", content: inputVal });
+    setInputVal("");
+  };
+
   return (
     <div className={styles.container}>
       <div className={styles.chatWindow}>
@@ -42,7 +51,7 @@ export default function Home() {
 
         {/* Message List */}
         <div className={styles.messageArea}>
-          {messages.map((m) => (
+          {messages?.map((m) => (
             <div
               key={m.id}
               className={`${styles.messageRow} ${
@@ -81,7 +90,7 @@ export default function Home() {
           ))}
 
           {/* Typing Indicator */}
-          {isLoading && messages[messages.length - 1]?.role === "user" && (
+          {isLoading && messages?.[messages.length - 1]?.role === "user" && (
             <div className={`${styles.messageRow} ${styles.botRow}`}>
               <div className={`${styles.message} ${styles.botMsg}`}>
                 <span className={styles.loader}>
@@ -98,15 +107,15 @@ export default function Home() {
 
         {/* Chat Input Box */}
         <div className={styles.inputArea}>
-          <form onSubmit={handleSubmit} className={styles.form}>
+          <form onSubmit={onSubmit} className={styles.form}>
             <input
               className={styles.input}
-              value={input}
+              value={inputVal}
               placeholder="Nhập yêu cầu của bạn (VD: tìm áo sơ mi nam màu đen)..."
-              onChange={handleInputChange}
+              onChange={(e) => setInputVal(e.target.value)}
             />
             <button
-              disabled={isLoading || !input?.trim()}
+              disabled={isLoading || !inputVal.trim()}
               type="submit"
               className={styles.sendBtn}
             >
