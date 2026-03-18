@@ -106,7 +106,7 @@ export default function Home() {
               onChange={handleInputChange}
             />
             <button
-              disabled={isLoading || !input.trim()}
+              disabled={isLoading || !input?.trim()}
               type="submit"
               className={styles.sendBtn}
             >
