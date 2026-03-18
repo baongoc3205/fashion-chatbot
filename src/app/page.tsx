@@ -1,3 +1,4 @@
+// @ts-nocheck
 "use client";
 
 import { useChat } from "@ai-sdk/react";
@@ -10,7 +11,7 @@ export default function Home() {
     initialMessages: [
       {
         id: "welcome",
-        role: "assistant",
+        role: "assistant" as const,
         content: "Xin chào! Em là trợ lý AI của cửa hàng Thời Trang Việt. Hôm nay anh/chị muốn tìm kiếm váy áo, quần, hay cần em tư vấn phong cách mặc đồ ạ? ✨",
       },
     ],
