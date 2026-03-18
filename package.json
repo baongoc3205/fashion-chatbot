@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build",
+    "build": "npx prisma generate && next build",
     "start": "next start",
     "lint": "eslint",
     "db:generate": "npx prisma generate",
@@ -13,7 +13,6 @@
     "db:seed": "npx prisma db seed",
     "db:studio": "npx prisma studio",
     "db:reset": "npx prisma migrate reset",
-    "db:embed": "npx tsx src/lib/rag/generate-embeddings.ts",
     "prisma": {
       "seed": "tsx prisma/seed.ts"
     }
@@ -25,7 +24,6 @@
     "ai": "^6.0.97",
     "next": "16.1.6",
     "pg": "^8.18.0",
-    "pgvector": "^0.2.1",
     "prisma": "^7.4.1",
     "react": "19.2.3",
     "react-dom": "19.2.3",
