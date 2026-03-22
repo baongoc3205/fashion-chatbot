@@ -1,210 +1,85 @@
 # Kiến Trúc Hệ Thống - Fashion AI Chatbot
 
-## 1. Tổng Quan Kiến Trúc
+## XÂY DỰNG ỨNG DỤNG VỚI OPENAI AGENTS SDK
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                     CLIENT LAYER                            │
-│  Next.js App Router + useChat() + Generative UI Components  │
-│  [ChatInterface] [ProductCard] [OrderCard] [PolicyCard]     │
-└─────────────────────┬───────────────────────────────────────┘
-                      │ HTTP Stream (SSE)
-┌─────────────────────▼───────────────────────────────────────┐
-│                     API LAYER                               │
-│  /api/chat - Request validation, session management, log    │
-└─────────────────────┬───────────────────────────────────────┘
-                      │
-┌─────────────────────▼───────────────────────────────────────┐
-│                     AGENT LAYER                             │
-│  Vercel AI SDK Core: streamText()                           │
-│  - System Prompt (Vietnamese fashion assistant persona)     │
-│  - Tool definitions (6 tools)                               │
-│  - Conversation history management                          │
-│  - Multi-step tool calling                                  │
-└──────────┬──────────────────────────┬───────────────────────┘
-           │ Tool Call                │ Tool Call
-┌──────────▼──────────┐   ┌──────────▼───────────────────────┐
-│    TOOL LAYER       │   │    RAG PIPELINE                  │
-│  - searchProducts   │   │  - Embedding: Gemini             │
-│  - getProductDetail │   │    text-embedding-004 (768 dims) │
-│  - checkStock       │   │  - Hybrid Search:                │
-│  - addToCart        │   │    Semantic (pgvector cosine)     │
-│  - createOrder      │   │    + Keyword filter              │
-│  - getPolicy        │   │  - Re-ranking by relevance       │
-└──────────┬──────────┘   └──────────┬───────────────────────┘
-           │                         │
-┌──────────▼─────────────────────────▼───────────────────────┐
-│                   DATABASE LAYER                            │
-│  PostgreSQL 16 + pgvector                                   │
-│  Prisma ORM                                                 │
-│  [products] [variants] [embeddings] [orders] [messages]     │
-└─────────────────────────────────────────────────────────────┘
-```
+### 1. Tổng quan và Kiến trúc Cốt lõi
+OpenAI Agents SDK là một framework được thiết kế theo tư duy "Python-first", tối ưu hóa quy trình xây dựng các tác nhân AI (Agent) có khả năng sử dụng công cụ và tương tác đa phương thức.
 
-## 2. Component Layers Chi Tiết
+#### 1.1. Cấu trúc cơ bản của Agent
+Một Agent trong SDK được cấu thành từ ba yếu tố chính:
+- **Name**: Định danh của Agent.
+- **Instructions**: Hệ thống chỉ dẫn (System Prompt) định hình hành vi và vai trò.
+- **Model**: Mô hình ngôn ngữ nền tảng (ví dụ: GPT-4o-mini).
 
-### 2.1 Client Layer
-- **Framework**: Next.js 15 App Router
-- **Chat hook**: `useChat()` từ Vercel AI SDK React
-- **Streaming**: Server-Sent Events (SSE) cho real-time streaming
-- **Generative UI**: AI trả structured data → Frontend render React components
+#### 1.2. Cơ chế thực thi (The Runner)
+Class Runner chịu trách nhiệm quản lý vòng đời và quá trình thực thi của Agent. Có ba phương thức vận hành chính:
+- **run (Async)**: Thực thi bất đồng bộ, trả về kết quả cuối cùng sau khi hoàn tất toàn bộ quy trình.
+- **run_sync**: Thực thi đồng bộ, chặn luồng chính cho đến khi có kết quả (chỉ dùng cho thử nghiệm, không khuyến nghị cho môi trường Production).
+- **run_stream**: Thực thi bất đồng bộ và trả về dữ liệu theo dòng (stream). Đây là phương thức tối ưu cho trải nghiệm người dùng (UX), cho phép hiển thị phản hồi tức thì (token-by-token) thay vì chờ đợi toàn bộ câu trả lời.
 
-**Key Components:**
-| Component | Mô tả | Data Source |
-|-----------|--------|-------------|
-| `ChatInterface` | Giao diện chat chính | useChat() |
-| `ProductCard` | Card sản phẩm với ảnh, giá, size | Tool: searchProducts |
-| `ProductGrid` | Grid hiển thị nhiều sản phẩm | Tool: searchProducts |
-| `ProductDetail` | Chi tiết sản phẩm đầy đủ | Tool: getProductDetail |
-| `StockBadge` | Badge hiển thị tình trạng kho | Tool: checkStock |
-| `OrderConfirmation` | Card xác nhận đơn hàng | Tool: createOrder |
-| `PolicyInfo` | Hiển thị chính sách | Tool: getPolicy |
+#### 1.3. Quản lý Sự kiện (Event Handling)
+Khi sử dụng chế độ Streaming, hệ thống sẽ trả về các đối tượng sự kiện (Events) để lập trình viên xử lý phía giao diện:
+- **Raw Response**: Các token văn bản thô từ mô hình.
+- **Run Item**: Thông tin về việc gọi công cụ (tool calls) hoặc các trạng thái nội bộ.
+- **Xử lý**: Cần thiết lập bộ lọc để chỉ hiển thị nội dung văn bản cho người dùng cuối và ẩn các logic xử lý ngầm.
 
-### 2.2 API Layer
-- **Route**: `POST /api/chat`
-- **Input**: `{ messages: Message[], sessionId: string }`
-- **Output**: Streaming response (text + tool results)
-- **Middleware**: Session validation, rate limiting (future)
+---
 
-### 2.3 Agent Layer
-- **Engine**: `streamText()` từ `ai` package
-- **Model**: Google Gemini 2.5 Flash (fast, cost-effective, strong reasoning)
-- **Provider**: `@ai-sdk/google`
-- **System Prompt**: Vietnamese fashion assistant persona
-- **Max steps**: 5 (multi-step tool calling)
-- **Temperature**: 0.3 (balanced creativity vs accuracy)
+### 2. Công cụ và Cơ chế Bảo vệ (Tools & Guardrails)
 
-### 2.4 Tool Layer
+#### 2.1. Function Tools
+SDK cho phép biến các hàm Python thông thường thành công cụ cho Agent thông qua decorator `@function_tool`.
+- **Cơ chế hoạt động**: Agent phân tích docstring (chuỗi mô tả) của hàm để hiểu mục đích và tham số.
+- **Tự động hóa**: Khi Agent quyết định gọi một công cụ, SDK sẽ tự động thực thi hàm Python tương ứng và trả kết quả về cho Agent để tổng hợp câu trả lời cuối cùng.
 
-```typescript
-// 6 tools chính
-const tools = {
-  searchProducts:   { /* Tìm kiếm sản phẩm bằng semantic search + filter */ },
-  getProductDetail: { /* Lấy chi tiết sản phẩm từ DB */ },
-  checkStock:       { /* Kiểm tra tồn kho variant cụ thể */ },
-  addToCart:        { /* Thêm sản phẩm vào giỏ hàng */ },
-  createOrder:      { /* Tạo đơn hàng từ giỏ hàng */ },
-  getPolicy:        { /* Truy vấn chính sách cửa hàng */ },
-};
-```
+#### 2.2. Guardrails (Hàng rào bảo vệ)
+Guardrails là lớp bảo mật giúp kiểm soát nội dung đầu vào và đầu ra, đảm bảo an toàn hệ thống.
+- **Input Guardrails**: Hoạt động như một bộ lọc trước khi tin nhắn đến Agent chính.
+  - **Quy trình**: Tin nhắn người dùng -> Input Guardrail (Agent phụ kiểm tra vi phạm) -> Agent chính.
+  - **Cấu trúc**: Sử dụng class `InputGuardrail` bao bọc một hàm kiểm tra. Hàm này trả về đối tượng chứa trạng thái kích hoạt (boolean) và thông tin từ chối nếu có vi phạm (ví dụ: chặn các câu hỏi về chính trị hoặc bạo lực).
 
-### 2.5 Database Layer
-- **Engine**: PostgreSQL 16
-- **ORM**: Prisma (type-safe queries)
-- **Vector**: pgvector extension cho similarity search
-- **Tables**: 12 models (xem `prisma/schema.prisma`)
+---
 
-## 3. RAG Pipeline
+### 3. Xây dựng Trợ lý Giọng nói (Voice Interfaces)
 
-### 3.1 Indexing Phase (Seed time)
-```
-Product Data → Generate text content → Gemini Embedding API → Store in product_embeddings
-```
+#### 3.1. Cấu hình Pipeline Âm thanh
+Để xây dựng giao diện giọng nói thời gian thực, SDK cung cấp `VoicePipelineConfig` để thiết lập quy trình ba bước khép kín:
+1. **Speech-to-Text (STT)**: Chuyển đổi âm thanh đầu vào thành văn bản (sử dụng Whisper).
+2. **LLM Processing**: Agent xử lý văn bản và sinh phản hồi.
+3. **Text-to-Speech (TTS)**: Chuyển đổi văn bản phản hồi thành âm thanh.
 
-**Content template:**
-```
-"{product.name} - {product.brand} - {product.category.name}
-{product.description}
-Chất liệu: {product.material}
-Tags: {product.tags.join(', ')}
-Giá: {product.price} VND"
-```
+#### 3.2. Kỹ thuật Xử lý Audio
+- **Thư viện**: Sử dụng `sounddevice` và `numpy` để thu và phát âm thanh.
+- **Lưu ý về Sample Rate**: Có sự khác biệt giữa phần cứng (thường là 44.1kHz hoặc 48kHz) và chuẩn đầu vào của OpenAI (24kHz). Cần thực hiện bước chuyển đổi (resampling) dữ liệu âm thanh trước khi gửi đi để tránh lỗi sai lệch cao độ/tốc độ.
+- **Prompt Engineering**: Trong phần instructions của Agent, bắt buộc phải khai báo rõ "Bạn là một trợ lý giọng nói". Điều này ngăn chặn việc Agent sinh ra các phản hồi không phù hợp với ngữ cảnh nghe nói (ví dụ: không dùng markdown, không nói "tôi không thể nghe thấy").
 
-### 3.2 Query Phase (Runtime)
-```
-User query → Gemini Embedding → pgvector cosine similarity
-                                → Filter by category/gender/price
-                                → Top-K results (K=6)
-                                → Return to Agent
-```
+---
 
-### 3.3 Hybrid Search Strategy
-1. **Semantic search**: pgvector `<=>` operator (cosine distance)
-2. **Keyword filter**: Prisma `where` clause (category, brand, price range, gender)
-3. **Re-ranking**: Combine similarity score + business rules (in-stock first, popular first)
+### 4. Hệ thống Đa tác vụ (Multi-Agent Systems)
 
-## 4. Agentic Workflow
+#### 4.1. Orchestrator vs. Handoffs
+Có hai mô hình chính để phối hợp nhiều Agent:
+- **Orchestrator (Điều phối viên)**: Một Agent trung tâm gọi các Agent con như những công cụ.
+  - *Nhược điểm*: Độ trễ cao và tốn kém tài nguyên do mọi thông tin đều phải đi qua Agent trung tâm.
+- **Handoffs (Chuyền giao - Được khuyến nghị)**: Agent hiện tại chuyển hoàn toàn quyền kiểm soát sang một Agent khác chuyên biệt hơn.
+  - *Ưu điểm*: Giảm độ trễ, tiết kiệm token và đơn giản hóa logic hội thoại.
 
-### 4.1 Decision Flow
-```
-User Message
-    │
-    ▼
-Agent analyzes intent
-    │
-    ├─ Simple greeting/chitchat → Direct text response
-    │
-    ├─ Need product info → Call searchProducts / getProductDetail
-    │
-    ├─ Check availability → Call checkStock
-    │
-    ├─ Cart action → Call addToCart
-    │
-    ├─ Order action → Call createOrder (may need customer info first)
-    │
-    └─ Policy question → Call getPolicy
-```
+#### 4.2. Cơ chế Handoff
+- **Triển khai**: Khai báo danh sách các Agent đích trong tham số `handoffs`. SDK tự động tạo ra hàm `transfer_to_[AgentName]` để Agent tự quyết định khi nào cần chuyển giao.
+- **Context Filtering (Bộ lọc ngữ cảnh)**: Khi chuyển giao, có thể sử dụng `input_filter` để loại bỏ các thông tin không cần thiết từ lịch sử hội thoại cũ (ví dụ: xóa các tool call của Agent trước đó). Điều này giúp Agent mới không bị "nhiễu" và tiết kiệm context window.
+- **Input Type**: Định nghĩa cấu trúc dữ liệu bắt buộc phải truyền kèm khi chuyển giao, đảm bảo Agent nhận có đủ thông tin để tiếp tục công việc ngay lập tức.
 
-### 4.2 Multi-step Example
-```
-User: "Tìm áo sơ mi trắng size M, thêm vào giỏ luôn"
-  → Step 1: Agent calls searchProducts("áo sơ mi trắng")
-  → Step 2: Agent calls checkStock(productId, "M", "trắng")
-  → Step 3: Agent calls addToCart(variantId, 1)
-  → Agent responds with confirmation + ProductCard
-```
+---
 
-## 5. Generative UI Strategy
+### 5. Giám sát và Gỡ lỗi (Observability)
 
-AI **không trả HTML/React code**. Thay vào đó:
-1. Tool trả về **structured JSON** (product data, order data)
-2. Frontend nhận tool results → **map to React components**
-3. Pattern: `toolName → Component mapping`
+#### 5.1. OpenAI Dashboard
+Agents SDK tích hợp sâu với nền tảng OpenAI. Khi chạy code với API Key hợp lệ, dữ liệu sẽ tự động được đẩy lên Dashboard tại mục **Traces**.
+- **Lợi ích**: Cho phép xem lại toàn bộ luồng thực thi, bao gồm: đầu vào, đầu ra, các tool đã gọi, thời gian phản hồi (latency) và chi phí token.
 
-```typescript
-const componentMap = {
-  searchProducts:   ProductGrid,    // Hiển thị grid sản phẩm
-  getProductDetail: ProductDetail,  // Chi tiết sản phẩm
-  checkStock:       StockBadge,     // Tình trạng kho
-  addToCart:        CartNotification,// Thông báo giỏ hàng
-  createOrder:      OrderConfirmation,// Xác nhận đơn
-  getPolicy:        PolicyCard,     // Thẻ chính sách
-};
-```
+#### 5.2. Custom Tracing
+Để quản lý logs hiệu quả hơn trong các dự án lớn, SDK hỗ trợ tùy chỉnh tracing:
+- **Grouping**: Sử dụng ngữ cảnh `with trace(...)` để nhóm các hoạt động liên quan lại với nhau (ví dụ: nhóm toàn bộ quy trình xử lý một yêu cầu người dùng).
+- **Metadata**: Gắn thêm các thẻ dữ liệu (tags, attributes) vào trace để phục vụ việc lọc và tìm kiếm lỗi sau này.
+- **Workflow Name**: Đặt tên định danh cho các luồng công việc để dễ dàng phân loại trên giao diện quản lý.
 
-## 6. Data Flow Diagram
-
-```
-┌─────────┐    ┌──────────┐    ┌───────────┐    ┌──────────┐
-│  User   │───▶│ Next.js  │───▶│  Vercel   │───▶│  Tools   │
-│ Browser │    │   API    │    │  AI SDK   │    │  Layer   │
-│         │◀───│ /api/chat│◀───│streamText │◀───│          │
-└─────────┘    └──────────┘    └───────────┘    └────┬─────┘
-   SSE Stream    Validate       Orchestrate          │
-   + UI Render   + Log          + Decide             │
-                                                     ▼
-                                              ┌──────────────┐
-                                              │ PostgreSQL   │
-                                              │ + pgvector   │
-                                              │              │
-                                              │ Products     │
-                                              │ Embeddings   │
-                                              │ Orders       │
-                                              │ Messages     │
-                                              └──────────────┘
-```
-
-## 7. Technology Stack Summary
-
-| Layer | Technology | Version |
-|-------|-----------|---------|
-| Frontend | Next.js (App Router) | 15.x |
-| Chat SDK | Vercel AI SDK | latest |
-| LLM | Google Gemini 2.5 Flash | - |
-| Embedding | Gemini text-embedding-004 | 768 dims |
-| ORM | Prisma | latest |
-| Database | PostgreSQL | 16 |
-| Vector Search | pgvector | 0.7+ |
-| Validation | Zod | latest |
-| Container | Docker Compose | - |
-| Language | TypeScript | 5.x |

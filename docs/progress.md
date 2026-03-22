@@ -12,7 +12,7 @@
 | 1 | Requirements, Architecture & Database Design | ✅ Hoàn thành | 100% |
 | 2 | Tool Layer, Chat API & Embedding Pipeline | 🟡 Gần xong | 85% |
 | 3 | Client Layer (Chat UI + Generative UI) | ⬜ Chưa bắt đầu | 0% |
-| 4 | RAG Enhancement & Agent Optimization | ⬜ Chưa bắt đầu | 0% |
+| 4 | OpenAI Agents SDK Integration & Optimization | ⬜ Chưa bắt đầu | 0% |
 | 5 | Testing, Polish & Deploy | ⬜ Chưa bắt đầu | 0% |
 
 ---
@@ -31,8 +31,8 @@
 - [x] Non-functional requirements
 
 ### Phase 3: Architecture Design
-- [x] Kiến trúc 5 lớp → `docs/architecture.md`
-- [x] RAG pipeline design (Gemini text-embedding-004, pgvector)
+- [x] Kiến trúc Agents SDK → `docs/architecture.md`
+- [x] Chuyển đổi sang Agent-based workflow thay vì RAG
 - [x] Generative UI strategy
 - [x] Agentic Workflow design
 
@@ -43,25 +43,25 @@
 - [x] Prisma client singleton → `src/lib/db/prisma.ts`
 
 ### Phase 5: Infrastructure
-- [x] Docker Compose file (PostgreSQL 16 + pgvector)
+- [x] Docker Compose file (PostgreSQL 16)
 - [x] Environment config (`.env`, `.env.example`)
-- [x] Package scripts (`db:generate`, `db:push`, `db:seed`, `db:studio`, `db:embed`)
+- [x] Package scripts (`db:generate`, `db:push`, `db:seed`, `db:studio`)
 
 ---
 
-## 🟡 Tuần 2 — Tool Layer, Chat API & Embedding Pipeline (85%)
+## 🟡 Tuần 2 — Tool Layer & Chat API (85%)
 
 ### Phase 1: Bug Fixes ✅
 - [x] Fix Policy vector dimension (1536 → 768 cho Gemini)
 - [x] Update seed.ts reference (OpenAI → Gemini)
 
 ### Phase 2: Docker & Database ⚠️ BLOCKED
-- [ ] ⚠️ **Docker Desktop chưa chạy** — cần khởi động thủ công
-- [ ] `docker compose up -d`
-- [ ] `npx prisma db push`
-- [ ] `npx prisma db seed `
-- [ ] `npm run db:embed` (generate embeddings)
-- [ ] Verify bằng Prisma Studio
+- [x] ⚠️ **Docker Desktop chưa chạy** — cần khởi động thủ công
+- [x] `docker compose up -d`
+- [x] `npx prisma db push`
+- [x] `npx prisma db seed `
+- [x] `npm run db:embed` (generate embeddings)
+- [] Verify bằng Prisma Studio
 
 ### Phase 3: Tool Layer ✅
 - [x] `searchProducts` — tìm kiếm keyword + filter danh mục/brand/giới tính/giá
@@ -79,9 +79,10 @@
 - [x] Multi-step tool calling (`stopWhen: stepCountIs(5)`)
 - [x] Session-based cart/order management
 
-### Phase 5: RAG & Embedding ✅
-- [x] `generate-embeddings.ts` — batch embed bằng Gemini text-embedding-004
-- [x] `rag/index.ts` — `semanticSearch()` với pgvector cosine similarity
+### Phase 5: Python Agents Backend (Pending)
+- [ ] Khởi tạo Python service với FastAPI
+- [ ] Cài đặt OpenAI Agents SDK
+- [ ] Chuyển các tools qua Python Backend
 
 ### Phase 6: Verification ✅
 - [x] `npm run build` — PASS (0 errors)
@@ -113,15 +114,15 @@
 
 ---
 
-## ⬜ Tuần 4 — RAG Enhancement & Agent Optimization (0%)
+## ⬜ Tuần 4 — OpenAI Agents SDK Integration & Optimization (0%)
 
-- [ ] Integrate semantic search vào `searchProducts` tool
-- [ ] Hybrid search: semantic + keyword
-- [ ] Re-ranking logic (in-stock first, popular first)
-- [ ] Conversation history persistence
-- [ ] Context window management
-- [ ] Error handling & fallback responses
-- [ ] Rate limiting
+- [ ] Connect Next.js API with Python Agents Backend
+- [ ] Streaming Server-Sent Events from Python to Next.js Client
+- [ ] Voice Pipeline (STT/TTS) Configuration
+- [ ] Multi-Agent Handoffs (Orchestrator/Handoff logic)
+- [ ] Guardrails (Input Filtering)
+- [ ] Custom Tracing với OpenAI Dashboard
+- [ ] Rate limiting & Error handling
 
 ---
 

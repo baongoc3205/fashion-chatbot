@@ -37,7 +37,7 @@ Hệ thống trợ lý ảo AI hội thoại **định hướng tác vụ** cho 
 ### Khách hàng tư vấn phong cách
 > **Là** khách hàng, **tôi muốn** được tư vấn phối đồ, **để** chọn được sản phẩm phù hợp với dịp.
 
-## 4. Happy-case Conversation Flow (≤ 8 Turns)
+## 4. Happy-case Conversation Flow (≤ 9 Turns)
 
 ```
 Turn 1: User  → "Chào, mình muốn tìm áo đi làm"

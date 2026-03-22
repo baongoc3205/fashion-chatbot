@@ -1,15 +1,13 @@
 // Fashion Chatbot - Database Schema
-// PostgreSQL + pgvector for semantic search
+// PostgreSQL with Prisma ORM
 
 generator client {
   provider        = "prisma-client"
   output          = "../src/generated/prisma"
-  previewFeatures = ["postgresqlExtensions"]
 }
 
 datasource db {
   provider   = "postgresql"
-  extensions = [pgvector(map: "vector", schema: "public")]
 }
 
 // ============================================
@@ -49,7 +47,6 @@ model Product {
   gender           Gender            @default(UNISEX)
   isActive         Boolean           @default(true)
   variants         ProductVariant[]
-  embedding        ProductEmbedding?
   orderItems       OrderItem[]
   cartItems        CartItem[]
   createdAt        DateTime          @default(now())
@@ -83,16 +80,7 @@ model ProductVariant {
   @@map("product_variants")
 }
 
-model ProductEmbedding {
-  id        String                     @id @default(uuid())
-  productId String                     @unique
-  product   Product                    @relation(fields: [productId], references: [id], onDelete: Cascade)
-  content   String
-  embedding Unsupported("vector(768)")
-  createdAt DateTime                   @default(now())
 
-  @@map("product_embeddings")
-}
 
 // ============================================
 // CUSTOMERS & AUTH
@@ -226,7 +214,7 @@ model Message {
 }
 
 // ============================================
-// POLICIES (for RAG)
+// POLICIES
 // ============================================
 
 model Policy {
@@ -234,7 +222,6 @@ model Policy {
   category  String
   title     String
   content   String
-  embedding Unsupported("vector(768)")?
   isActive  Boolean                     @default(true)
   createdAt DateTime                    @default(now())
   updatedAt DateTime                    @updatedAt

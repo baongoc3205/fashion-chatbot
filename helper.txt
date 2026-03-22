@@ -1,0 +1,13 @@
+type UseChatHelpers<UI_MESSAGE extends UIMessage> = {
+    /**
+     * The id of the chat.
+     */
+    readonly id: string;
+    /**
+     * Update the `messages` state locally. This is useful when you want to
+     * edit the messages on the client, and then trigger the `reload` method
+     * manually to regenerate the AI response.
+     */
+    setMessages: (messages: UI_MESSAGE[] | ((messages: UI_MESSAGE[]) => UI_MESSAGE[])) => void;
+    error: Error | undefined;
+} & Pick<AbstractChat<UI_MESSAGE>, 'sendMessage' | 'regenerate' | 'stop' | 'resumeStream' | 'addToolResult' | 'addToolOutput' | 'addToolApprovalResponse' | 'status' | 'messages' | 'clearError'>;

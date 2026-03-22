@@ -1,0 +1,83 @@
+{
+  "total_tests": 7,
+  "all_passed": false,
+  "avg_latency_ms": 2.7,
+  "tests": [
+    {
+      "test": "keyword_search_ao",
+      "found": 6,
+      "latency_ms": 3.2,
+      "products": [
+        {
+          "name": "Giày Chukka",
+          "price": 1250000.0,
+          "brand": "Foci"
+        },
+        {
+          "name": "Giày Moccasin",
+          "price": 1910000.0,
+          "brand": "IVY moda"
+        },
+        {
+          "name": "Giày Wingtip",
+          "price": 590000.0,
+          "brand": "Canifa"
+        },
+        {
+          "name": "Giày Penny Loafer",
+          "price": 1840000.0,
+          "brand": "Aristino"
+        },
+        {
+          "name": "Giày Cap Toe",
+          "price": 1280000.0,
+          "brand": "Elise"
+        },
+        {
+          "name": "Giày Tassel Loafer",
+          "price": 1010000.0,
+          "brand": "Elise"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "test": "price_range_200k_500k",
+      "found": 6,
+      "latency_ms": 1.3,
+      "pass": true
+    },
+    {
+      "test": "category_filter_ao_so_mi",
+      "found": 6,
+      "latency_ms": 1.2,
+      "pass": true
+    },
+    {
+      "test": "available_variants_count",
+      "total_available": 1472,
+      "latency_ms": 2.0,
+      "pass": true
+    },
+    {
+      "test": "full_search_with_variants",
+      "query": "quan",
+      "products_found": 0,
+      "variants_found": 0,
+      "latency_ms": 8.1,
+      "pass": false
+    },
+    {
+      "test": "gender_filter_female",
+      "found": 5,
+      "latency_ms": 1.8,
+      "pass": true
+    },
+    {
+      "test": "nonexistent_product",
+      "found": 0,
+      "latency_ms": 1.4,
+      "pass": true
+    }
+  ]
+}

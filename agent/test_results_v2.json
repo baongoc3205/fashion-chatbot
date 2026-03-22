@@ -1,0 +1,193 @@
+{
+  "total_tests": 6,
+  "all_passed": true,
+  "avg_latency_ms": 5.1,
+  "tests": [
+    {
+      "test": "diacritics_quan_matches_Quan",
+      "found": 6,
+      "latency_ms": 14.1,
+      "products": [
+        {
+          "name": "Quần Jogger Sport",
+          "price": 360000.0,
+          "brand": "IVY moda",
+          "cat": "Quần Jogger"
+        },
+        {
+          "name": "Quần Jogger Zip",
+          "price": 1370000.0,
+          "brand": "Nem",
+          "cat": "Quần Jogger"
+        },
+        {
+          "name": "Quần Jogger French Terry",
+          "price": 1130000.0,
+          "brand": "Canifa",
+          "cat": "Quần Jogger"
+        },
+        {
+          "name": "Quần Jogger Basic",
+          "price": 280000.0,
+          "brand": "Owen",
+          "cat": "Quần Jogger"
+        },
+        {
+          "name": "Quần Jogger Track",
+          "price": 410000.0,
+          "brand": "Owen",
+          "cat": "Quần Jogger"
+        },
+        {
+          "name": "Quần Jogger Oversize",
+          "price": 1150000.0,
+          "brand": "Foci",
+          "cat": "Quần Jogger"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "test": "diacritics_ao_so_mi",
+      "found": 6,
+      "latency_ms": 2.1,
+      "products": [
+        {
+          "name": "Áo Sơ Mi Caro Nhỏ",
+          "price": 920000.0
+        },
+        {
+          "name": "Áo Sơ Mi Cuban Collar",
+          "price": 570000.0
+        },
+        {
+          "name": "Áo Sơ Mi Trơn Basic",
+          "price": 210000.0
+        },
+        {
+          "name": "Áo Sơ Mi Flannel",
+          "price": 1070000.0
+        },
+        {
+          "name": "Áo Sơ Mi Cổ Đức",
+          "price": 1100000.0
+        },
+        {
+          "name": "Áo Sơ Mi Công Sở Premium",
+          "price": 1060000.0
+        }
+      ],
+      "pass": true
+    },
+    {
+      "test": "diacritics_vay_matches_Vay",
+      "found": 6,
+      "latency_ms": 1.7,
+      "products": [
+        {
+          "name": "Váy Two-Piece",
+          "price": 770000.0
+        },
+        {
+          "name": "Váy Kẻ Sọc",
+          "price": 2240000.0
+        },
+        {
+          "name": "Váy Cotton Thoáng Mát",
+          "price": 1480000.0
+        },
+        {
+          "name": "Váy Jean Yếm",
+          "price": 1120000.0
+        },
+        {
+          "name": "Váy Tank Dress",
+          "price": 1120000.0
+        },
+        {
+          "name": "Váy Sơ Mi Dài",
+          "price": 340000.0
+        }
+      ],
+      "pass": true
+    },
+    {
+      "test": "combined_keyword_price_variants",
+      "query": "ao (price <= 500k)",
+      "products_found": 6,
+      "available_variants": 46,
+      "latency_ms": 9.4,
+      "products": [
+        {
+          "name": "Giày Loafer",
+          "price": 460000.0,
+          "brand": "Canifa"
+        },
+        {
+          "name": "Sandal Xỏ Ngón",
+          "price": 340000.0,
+          "brand": "Routine"
+        },
+        {
+          "name": "Sandal Gladiator",
+          "price": 410000.0,
+          "brand": "Elise"
+        },
+        {
+          "name": "Sandal Quai Ngang",
+          "price": 440000.0,
+          "brand": "Yody"
+        },
+        {
+          "name": "Giày Sneaker Platform",
+          "price": 450000.0,
+          "brand": "Routine"
+        },
+        {
+          "name": "Giày Sneaker Running",
+          "price": 480000.0,
+          "brand": "Foci"
+        }
+      ],
+      "pass": true
+    },
+    {
+      "test": "exact_vietnamese_Quan_Jean",
+      "found": 6,
+      "latency_ms": 1.9,
+      "products": [
+        {
+          "name": "Quần Jean Mom",
+          "price": 1070000.0
+        },
+        {
+          "name": "Quần Jean Cargo",
+          "price": 1170000.0
+        },
+        {
+          "name": "Quần Jean Boyfriend",
+          "price": 1000000.0
+        },
+        {
+          "name": "Quần Jean Đen Trơn",
+          "price": 550000.0
+        },
+        {
+          "name": "Quần Jean Wash Nhẹ",
+          "price": 600000.0
+        },
+        {
+          "name": "Quần Jean Co Giãn",
+          "price": 740000.0
+        }
+      ],
+      "pass": true
+    },
+    {
+      "test": "tag_search_casual",
+      "found": 5,
+      "latency_ms": 1.7,
+      "pass": true
+    }
+  ]
+}
