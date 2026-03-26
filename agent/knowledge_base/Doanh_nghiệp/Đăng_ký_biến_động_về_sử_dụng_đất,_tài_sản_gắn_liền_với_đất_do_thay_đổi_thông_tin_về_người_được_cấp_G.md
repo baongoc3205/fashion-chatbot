@@ -1,0 +1,35 @@
+# Thủ tục: Đăng ký biến động về sử dụng đất, tài sản gắn liền với đất do thay đổi thông tin về người được cấp Giấy chứng nhận (đổi tên hoặc giấy tờ pháp nhân, giấy tờ nhân thân, địa chỉ); giảm diện tích thửa đất do sạt lở tự nhiên; thay đổi về hạn chế quyền sử dụng đất; thay đổi về nghĩa vụ tài chính; thay đổi về tài sản gắn liền với đất so với nội dung đã đăng ký, cấp Giấy chứng nhận (Cấp tỉnh - trường hợp đã thành lập VP đăng ký đất đai)
+
+**Nguồn**: [https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.004227](https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.004227)
+**Danh mục / Đối tượng**: Doanh nghiệp
+**Lĩnh vực**: 
+**Cơ quan thực hiện**: Văn phòng đăng ký đất đai Chi nhánh Văn phòng đăng ký đất đai Yêu cầu, điều kiện thực hiện Đối với trường hợp thực hiện thủ tục trên môi trường điện tử: Căn cứ điều kiện cụ thể về hạ tầng kỹ thuật công nghệ thông tin đất đai và cơ sở dữ liệu đất đai đang quản lý, cơ quan tiếp nhận hồ sơ và trả kết quả giải quyết thủ tục hành chính về đất đai quy định tại Điều 60 của Nghị định số 43/2014/NĐ-CP ngày 15/5/2014 của Chính phủ quy định chi tiết thi hành một số điều của Luật Đất đai (được sửa đổi, bổ sung tại khoản 7 Điều 1 của Nghị định số 10/2023/NĐ-CP ngày 03/4/2023 sửa đổi, bổ sung một số điều của các nghị định hướng dẫn thi hành Luật Đất đai) có trách nhiệm tổ chức việc tiếp nhận hồ sơ và trả kết quả giải quyết thủ tục hành chính trên môi trường điện tử theo quy định của Chính phủ. Chọn cơ quan thực hiện Tỉnh/Thành phố Bộ ngành Phường/Xã Sở --Chọn Phường/Xã-- Đồng ý Hệ thống chỉ hiển thị những cơ quan (Sở/xã đã áp dụng dịch vụ công) Bộ, cơ quan, địa phương cung cấp dịch vụ công trực tuy
+**Địa chỉ tiếp nhận**: 
+
+## Yêu cầu cơ bản
+**Cách thức thực hiện**:
+Hình thức nộp Thời hạn giải quyết Phí, lệ phí Mô tả Trực tiếp 10 Ngày làm việc Phí: Đồng Xem chi tiết Cách thức thực hiện: Người sử dụng đất nộp hồ sơ tại Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai hoặc cơ quan tiếp nhận hồ sơ theo quy định của Ủy ban nhân dân cấp tỉnh hoặc địa điểm theo nhu cầu đối với những địa phương mà Ủy ban nhân dân cấp tỉnh đã ban hành quy chế tiếp nhận, luân chuyển hồ sơ, giải quyết và trả kết quả giải quyết thủ tục theo nhu cầu về địa điểm hoặc trên môi trường điện tử. Hộ gia đình, cá nhân, cộng đồng dân cư nộp hồ sơ tại Ủy ban nhân dân cấp xã nếu có nhu cầu. Thời hạn giải quyết: Do Ủy ban nhân dân cấp tỉnh quy định nhưng không quá 10 ngày kể từ ngày nhận được hồ sơ hợp lệ. Thời gian này không tính thời gian các ngày nghỉ, ngày lễ theo quy định của pháp luật; không tính thời gian tiếp nhận hồ sơ tại xã, thời gian thực hiện nghĩa vụ tài chính của người sử dụng đất; không tính thời gian xem xét xử lý đối với trường hợp sử dụng đất có vi
+
+**Đối tượng thực hiện**:
+
+
+## Trình tự & Hồ sơ
+### Trình tự thực hiện
+Trực tiếp - Người sử dụng đất nộp hồ sơ tại Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai hoặc cơ quan tiếp nhận hồ sơ theo quy định của Ủy ban nhân dân cấp tỉnh hoặc địa điểm theo nhu cầu đối với những địa phương mà Ủy ban nhân dân cấp tỉnh đã ban hành quy chế tiếp nhận, luân chuyển hồ sơ, giải quyết và trả kết quả giải quyết thủ tục theo nhu cầu về địa điểm. Hộ gia đình, cá nhân, cộng đồng dân cư nộp hồ sơ tại Ủy ban nhân dân cấp xã nếu có nhu cầu. + Trường hợp nhận hồ sơ chưa đầy đủ, chưa hợp lệ thì trong thời gian tối đa 03 ngày, cơ quan tiếp nhận, xử lý hồ sơ phải thông báo và hướng dẫn người nộp hồ sơ bổ sung, hoàn chỉnh hồ sơ theo quy định. +Trường hợp người sử dụng đất có nhu cầu chuyển mục đích sử dụng đất kết hợp với đăng ký biến động về các nội dung của thủ tục này thì thực hiện thủ tục này đồng thời với thủ tục chuyển mục đích sử dụng đất. - Cơ quan tiếp nhận hồ sơ ghi đầy đủ thông tin vào Sổ tiếp nhận hồ sơ và trả kết quả, trao Phiếu tiếp nhận hồ sơ v
+
+### Thành phần hồ sơ
+(1) Trường hợp đăng ký biến động về sử dụng đất, tài sản gắn liền với... Tên giấy tờ Mẫu đơn, tờ khai Số lượng a) Đơn đăng ký biến động đất đai, tài sản gắn liền với đất theo Mẫu số 09/ĐK; Mau so 09-DK.pdf Bản chính: 1 - Bản sao: 0 b) Bản gốc Giấy chứng nhận đã cấp; Bản chính: 1 - Bản sao: 0 c) Một trong các giấy tờ liên quan đến nội dung biến động: Bản chính: - Bản sao: - Văn bản công nhận của cơ quan nhà nước có thẩm quyền theo quy định của pháp luật đối với trường hợp cá nhân hoặc người đại diện hộ gia đình thay đổi họ, tên; Bản chính: 1 - Bản sao: 0 - Văn bản thỏa thuận của hộ gia đình được Ủy ban nhân dân cấp xã xác nhận đối với trường hợp thay đổi người đại diện là thành viên khác trong hộ; trường hợp thay đổi người đại diện là chủ hộ gia đình thì cơ quan giải quyết thủ tục có trách nhiệm khai thác, sử dụng thông tin về chủ hộ trong Cơ sở dữ liệu quốc gia về dân cư theo quy định tại Điều 14 Nghị định số 104/2022/NĐ-CP ngày 21 tháng 12 năm 2022 của Chính phủ sửa đổi, bổ sung một
+
+### Yêu cầu - điều kiện
+
+
+## Chi phí & Thời gian
+- **Thời hạn giải quyết**: Phí, lệ phí Mô tả Trực tiếp 10 Ngày làm việc Phí: Đồng Xem chi tiết Cách thức thực hiện: Người sử dụng đất nộp hồ sơ tại Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai hoặc cơ quan tiếp nhận hồ sơ theo quy định của Ủy ban nhân dân cấp tỉnh hoặc địa điểm theo nhu cầu đối với những địa phương mà Ủy ban nhân dân cấp tỉnh đã ban hành quy chế tiếp nhận, luân chuyển hồ sơ, giải quyết và trả kết quả giải quyết thủ tục theo nhu cầu về địa điểm hoặc trên môi trường điện tử. Hộ gia đình, cá nhân, cộng đồng dân cư nộp hồ sơ tại Ủy ban nhân dân cấp xã nếu có nhu cầu. Thời hạn giải quyết: Do Ủy ban nhân dân cấp tỉnh quy định nhưng không quá 10 ngày kể từ ngày nhận được hồ sơ hợp lệ. Thời gian này không tính thời gian các ngày nghỉ, ngày lễ theo quy định của pháp luật; không tính thời gian tiếp nhận hồ sơ tại xã, thời gian thực hiện nghĩa vụ tài chính của người sử dụng đất; không tính thời gian xem xét xử lý đối với trường hợp sử dụng đất có vi phạm pháp luật, thời gian trưng cầ
+- **Phí**: , lệ phí Mô tả Trực tiếp 10 Ngày làm việc Phí: Đồng Xem chi tiết Cách thức thực hiện: Người sử dụng đất nộp hồ sơ tại Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai hoặc cơ quan tiếp nhận hồ sơ theo quy định của Ủy ban nhân dân cấp tỉnh hoặc địa điểm theo nhu cầu đối với những địa phương mà Ủy ban nhân dân cấp tỉnh đã ban hành quy chế tiếp nhận, luân chuyển hồ sơ, giải quyết và trả kết quả giải quyết thủ tục theo nhu cầu về địa điểm hoặc trên môi trường điện tử. Hộ gia đình, cá nhân, cộng đồng dân cư nộp hồ sơ tại Ủy ban nhân dân cấp xã nếu có nhu cầu. Thời hạn giải quyết: Do Ủy ban nhân dân cấp tỉnh quy định nhưng không quá 10 ngày kể từ ngày nhận được hồ sơ hợp lệ. Thời gian này không tính thời gian các ngày nghỉ, ngày lễ theo quy định của pháp luật; không tính thời gian tiếp nhận hồ sơ tại xã, thời gian thực hiện nghĩa vụ tài chính của người sử dụng đất; không tính thời gian xem xét xử lý đối với trường hợp sử dụng đất có vi phạm pháp luật, thời gian trưng cầu gi
+- **Lệ phí**: 
+
+## Kết quả & Căn cứ
+**Kết quả thực hiện**: 
+**Căn cứ pháp lý**:
+
+

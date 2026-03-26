@@ -1,0 +1,35 @@
+# Thủ tục: Đăng ký sang tên, di chuyển xe tại Phòng Cảnh sát giao thông (thực hiện tại cấp tỉnh)
+
+**Nguồn**: [https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=2.000076](https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-nganh-doc.html?ma_thu_tuc=2.000076)
+**Danh mục / Đối tượng**: Công dân
+**Lĩnh vực**: 
+**Cơ quan thực hiện**: Phòng Cảnh sát giao thông Yêu cầu, điều kiện thực hiện không Danh sách dịch vụ công × Đóng Thông tin phí, lệ phí Hình thức nộp Thời hạn giải quyết Phí, lệ phí Mô tả Đóng Câu hỏi thường gặp Hướng dẫn sử dụng Cơ quan chủ quản: Văn phòng Chính phủ www.dichvucong.gov.vn Tổng đài hỗ trợ: 18001096 Email: dichvucong@chinhphu.vn
+**Địa chỉ tiếp nhận**: 
+
+## Yêu cầu cơ bản
+**Cách thức thực hiện**:
+Hình thức nộp Thời hạn giải quyết Phí, lệ phí Mô tả Trực tiếp 02 Ngày làm việc Lệ phí: Xem chi tiết Lệ phí: Đồng Xem chi tiết + Cấp chứng nhận thu hồi đăng ký, biển số xe: Không quá 02 ngày làm việc (trường hợp cấp chứng nhận thu hồi đăng ký, biển số), kể từ ngày nhận đủ hồ sơ hợp lệ. + Cấp chứng nhận đăng ký xe: Không quá 02 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ + Cấp biển số định danh lần đầu: Cấp ngay sau khi tiếp nhận hồ sơ đăng ký xe hợp lệ. + Cấp lại biển số định danh: Không quá 07 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ. + Thời gian trả kết quả đăng ký xe theo quy định được tính từ ngày nhận đủ hồ sơ hợp lệ và hệ thống đăng ký, quản lý xe đã nhận được kết quả xác thực về việc hoàn thành nộp lệ phí đăng ký xe từ cổng dịch vụ công. + Trường hợp mất chứng nhận đăng ký xe khi làm thủ tục thu hồi thì thời hạn xác minh là 30 ngày. Trực tuyến 02 Ngày làm việc Lệ phí: Đồng Xem chi tiết Lệ phí: Đồng Xem chi tiết + Cấp chứng nhận thu hồi đăng ký, biển số xe: Không quá 02
+
+**Đối tượng thực hiện**:
+
+
+## Trình tự & Hồ sơ
+### Trình tự thực hiện
++ Khi chuyển quyền sở hữu xe, chủ xe phải giữ lại chứng nhận đăng ký xe, biển số xe (không giao cho tổ chức, cá nhân nhận chuyển quyền sở hữu xe) và nộp cho cơ quan đăng ký xe chứng nhận đăng ký xe, biển số xe để làm thủ tục thu hồi; trong thời hạn 30 ngày, kể từ ngày làm giấy tờ chuyển quyền sở hữu xe, chủ xe phải làm thủ tục thu hồi, trường hợp quá thời hạn trên mà chủ xe không làm thủ tục thu hồi hoặc giao chứng nhận đăng ký xe, biển số xe cho tổ chức, cá nhân nhận chuyển quyền sở hữu xe làm thủ tục thu hồi thì trước khi giải quyết cơ quan đăng ký xe ra quyết định xử phạt đối với chủ xe về hành vi không làm thủ tục thu hồi theo quy định; Khi chuyển trụ sở, nơi cư trú từ tỉnh, thành phố trực thuộc Trung ương này sang tỉnh, thành phố trực thuộc Trung ương khác (di chuyển nguyên chủ), chủ xe phải làm thủ tục thu hồi tại cơ quan đang quản lý hồ sơ xe đó. + Tổ chức, cá nhân nhận chuyển quyền sở hữu xe, chủ xe (đối với trường hợp di chuyển nguyên chủ) làm thủ tục đăng ký sang tên, di chu
+
+### Thành phần hồ sơ
+1. Hồ sơ thu hồi Tên giấy tờ Mẫu đơn, tờ khai Số lượng Giấy khai thu hồi đăng ký, biển số xe 5. Mẫu giấy khai thu hồi đăng ký, biển số xe.doc.docx Bản chính: 1 - Bản sao: 0 Giấy tờ của chủ xe theo quy định Bản chính: 1 - Bản sao: 0 02 bản chà số máy, số khung xe Bản chính: 1 - Bản sao: 0 Biển số xe (quy định tại TT 24/2023/TT-BCA) Bản chính: 1 - Bản sao: 0 Chứng nhận đăng ký xe (quy định tại TT 24/2023/TT-BCA) Bản chính: 1 - Bản sao: 0 Trường hợp di chuyển nguyên chủ, chủ xe không phải nộp lại biển số xe trừ trường hợp xe đã đăng ký là biển 3 hoặc 4 số thì phải nộp lại biển 3 hoặc 4 số đó; Trường hợp mất chứng nhận đăng ký xe hoặc mất biển số xe thì phải ghi rõ lý do trong giấy khai thu hồi đăng ký, biển số xe; Bản chính: 1 - Bản sao: 1 Chứng từ chuyển quyền sở hữu xe theo quy định tại khoản 2 Điều 11 Thông tư số 24/2023/TT-BCA (trừ trường hợp di chuyển nguyên chủ). Bản chính: 0 - Bản sao: 1 2. Hồ sơ đăng ký sang tên, di chuyển xe Tên giấy tờ Mẫu đơn, tờ khai Số lượng Giấy khai đăng k
+
+### Yêu cầu - điều kiện
+
+
+## Chi phí & Thời gian
+- **Thời hạn giải quyết**: Phí, lệ phí Mô tả Trực tiếp 02 Ngày làm việc Lệ phí: Xem chi tiết Lệ phí: Đồng Xem chi tiết + Cấp chứng nhận thu hồi đăng ký, biển số xe: Không quá 02 ngày làm việc (trường hợp cấp chứng nhận thu hồi đăng ký, biển số), kể từ ngày nhận đủ hồ sơ hợp lệ. + Cấp chứng nhận đăng ký xe: Không quá 02 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ + Cấp biển số định danh lần đầu: Cấp ngay sau khi tiếp nhận hồ sơ đăng ký xe hợp lệ. + Cấp lại biển số định danh: Không quá 07 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ. + Thời gian trả kết quả đăng ký xe theo quy định được tính từ ngày nhận đủ hồ sơ hợp lệ và hệ thống đăng ký, quản lý xe đã nhận được kết quả xác thực về việc hoàn thành nộp lệ phí đăng ký xe từ cổng dịch vụ công. + Trường hợp mất chứng nhận đăng ký xe khi làm thủ tục thu hồi thì thời hạn xác minh là 30 ngày. Trực tuyến 02 Ngày làm việc Lệ phí: Đồng Xem chi tiết Lệ phí: Đồng Xem chi tiết + Cấp chứng nhận thu hồi đăng ký, biển số xe: Không quá 02 ngày làm việc (trường hợp cấp chứn
+- **Phí**: , lệ phí Mô tả Trực tiếp 02 Ngày làm việc Lệ phí: Xem chi tiết Lệ phí: Đồng Xem chi tiết + Cấp chứng nhận thu hồi đăng ký, biển số xe: Không quá 02 ngày làm việc (trường hợp cấp chứng nhận thu hồi đăng ký, biển số), kể từ ngày nhận đủ hồ sơ hợp lệ. + Cấp chứng nhận đăng ký xe: Không quá 02 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ + Cấp biển số định danh lần đầu: Cấp ngay sau khi tiếp nhận hồ sơ đăng ký xe hợp lệ. + Cấp lại biển số định danh: Không quá 07 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ. + Thời gian trả kết quả đăng ký xe theo quy định được tính từ ngày nhận đủ hồ sơ hợp lệ và hệ thống đăng ký, quản lý xe đã nhận được kết quả xác thực về việc hoàn thành nộp lệ phí đăng ký xe từ cổng dịch vụ công. + Trường hợp mất chứng nhận đăng ký xe khi làm thủ tục thu hồi thì thời hạn xác minh là 30 ngày. Trực tuyến 02 Ngày làm việc Lệ phí: Đồng Xem chi tiết Lệ phí: Đồng Xem chi tiết + Cấp chứng nhận thu hồi đăng ký, biển số xe: Không quá 02 ngày làm việc (trường hợp cấp chứng nh
+- **Lệ phí**: : Xem chi tiết Lệ phí: Đồng Xem chi tiết + Cấp chứng nhận thu hồi đăng ký, biển số xe: Không quá 02 ngày làm việc (trường hợp cấp chứng nhận thu hồi đăng ký, biển số), kể từ ngày nhận đủ hồ sơ hợp lệ. + Cấp chứng nhận đăng ký xe: Không quá 02 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ + Cấp biển số định danh lần đầu: Cấp ngay sau khi tiếp nhận hồ sơ đăng ký xe hợp lệ. + Cấp lại biển số định danh: Không quá 07 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ. + Thời gian trả kết quả đăng ký xe theo quy định được tính từ ngày nhận đủ hồ sơ hợp lệ và hệ thống đăng ký, quản lý xe đã nhận được kết quả xác thực về việc hoàn thành nộp lệ phí đăng ký xe từ cổng dịch vụ công. + Trường hợp mất chứng nhận đăng ký xe khi làm thủ tục thu hồi thì thời hạn xác minh là 30 ngày. Trực tuyến 02 Ngày làm việc Lệ phí: Đồng Xem chi tiết Lệ phí: Đồng Xem chi tiết + Cấp chứng nhận thu hồi đăng ký, biển số xe: Không quá 02 ngày làm việc (trường hợp cấp chứng nhận thu hồi đăng ký, biển số), kể từ ngày nhận đủ
+
+## Kết quả & Căn cứ
+**Kết quả thực hiện**: 
+**Căn cứ pháp lý**:
+
+

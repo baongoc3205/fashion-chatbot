@@ -1,0 +1,35 @@
+# Thủ tục: Thủ tục đăng ký khai sinh
+
+**Nguồn**: [https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.001193](https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.001193)
+**Danh mục / Đối tượng**: Công dân
+**Lĩnh vực**: 
+**Cơ quan thực hiện**: Ủy ban nhân dân cấp xã Yêu cầu, điều kiện thực hiện Không Chọn cơ quan thực hiện Tỉnh/Thành phố Bộ ngành Phường/Xã Sở --Chọn Phường/Xã-- Đồng ý Hệ thống chỉ hiển thị những cơ quan (Sở/xã đã áp dụng dịch vụ công) Bộ, cơ quan, địa phương cung cấp dịch vụ công trực tuyến Thông tin phí, lệ phí Phí Đơn vị tính Văn bản Mô tả Đóng Câu hỏi thường gặp Hướng dẫn sử dụng Cơ quan chủ quản: Văn phòng Chính phủ www.dichvucong.gov.vn Tổng đài hỗ trợ: 18001096 Email: dichvucong@chinhphu.vn
+**Địa chỉ tiếp nhận**: 
+
+## Yêu cầu cơ bản
+**Cách thức thực hiện**:
+Hình thức nộp Thời hạn giải quyết Phí, lệ phí Mô tả Trực tiếp Ngay trong ngày tiếp nhận yêu cầu, trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo. Lệ phí: - Đối với trường hợp đăng ký khai sinh không đúng hạn: theo mức thu lệ phí do Hội đồng nhân dân cấp tỉnh quy định. - Miễn lệ phí đối với trường hợp khai sinh đúng hạn, người thuộc gia đình có công với cách mạng; người thuộc hộ nghèo; người khuyết tật. Người yêu cầu đăng ký khai sinh trực tiếp thực hiện hoặc ủy quyền cho người khác thực hiện nộp hồ sơ trực tiếp tại Trung tâm Phục vụ hành chính công, gửi qua hệ thống bưu chính hoặc nộp hồ sơ trực tuyến tại Cổng dịch vụ công quốc gia (https://dichvucong.gov.vn). Trực tuyến Ngay trong ngày tiếp nhận yêu cầu, trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo. Lệ phí: - Đối với trường hợp đăng ký khai sinh không đúng hạn: theo mức thu lệ phí do Hội đồng nhân dân cấp tỉnh
+
+**Đối tượng thực hiện**:
+
+
+## Trình tự & Hồ sơ
+### Trình tự thực hiện
+- Nếu lựa chọn hình thức nộp hồ sơ trực tiếp, người yêu cầu đăng ký khai sinh nộp hồ sơ đăng ký khai sinh tại Trung tâm Phục vụ hành chính công có thẩm quyền; nộp lệ phí nếu thuộc trường hợp phải nộp lệ phí đăng ký khai sinh; nộp phí cấp bản sao Giấy khai sinh nếu có yêu cầu cấp bản sao Giấy khai sinh. bản sao Giấy khai sinh. - Nếu lựa chọn hình thức nộp hồ sơ trực tuyến, người có yêu cầu đăng ký khai sinh truy cập Cổng dịch vụ công quốc gia hoặc Cổng dịch vụ công cấp tỉnh, đăng ký tài khoản (nếu chưa có tài khoản), xác thực người dùng theo hướng dẫn, đăng nhập vào hệ thống, xác định đúng Ủy ban nhân dân cấp xã có thẩm quyền. Người có yêu cầu đăng ký khai sinh trực tuyến cung cấp thông tin theo biểu mẫu điện tử tương tác đăng ký khai sinh (cung cấp trên Cổng dịch vụ công), đính kèm bản chụp hoặc bản sao điện tử các giấy tờ, tài liệu theo quy định; nộp phí, lệ phí thông qua chức năng thanh toán trực tuyến hoặc bằng cách thức khác theo quy định pháp luật, hoàn tất việc nộp hồ sơ. - Cán
+
+### Thành phần hồ sơ
+Bao gồm Tên giấy tờ Mẫu đơn, tờ khai Số lượng - Tờ khai đăng ký khai sinh theo mẫu (nếu người có yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tiếp hoặc gửi hồ sơ qua hệ thống bưu chính); 1.TKngkkhaisinh.doc Bản chính: 1 - Bản sao: 0 - Mẫu hộ tịch điện tử tương tác đăng ký khai sinh (do người yêu cầu cung cấp thông tin theo hướng dẫn trên Cổng dịch vụ công, nếu người có yêu cầu lựa chọn nộp hồ sơ theo hình thức trực tuyến) 1.TTT-ngkkhaisinh.doc Bản chính: 1 - Bản sao: 0 - Người có yêu cầu đăng ký khai sinh thực hiện việc nộp/xuất trình (theo hình thức trực tiếp) hoặc tải lên (theo hình thức trực tuyến) các giấy tờ sau: Bản chính: 0 - Bản sao: 0 * Giấy tờ phải nộp: Tên giấy tờ Mẫu đơn, tờ khai Số lượng - Giấy chứng sinh; trường hợp không có Giấy chứng sinh thì nộp văn bản của người làm chứng xác nhận về việc sinh; nếu không có người làm chứng thì phải có giấy cam đoan về việc sinh. Bản chính: 1 - Bản sao: 0 Trường hợp người yêu cầu đã nộp bản điện tử Giấy chứng sinh hoặc cơ quan đăng
+
+### Yêu cầu - điều kiện
+
+
+## Chi phí & Thời gian
+- **Thời hạn giải quyết**: Phí, lệ phí Mô tả Trực tiếp Ngay trong ngày tiếp nhận yêu cầu, trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo. Lệ phí: - Đối với trường hợp đăng ký khai sinh không đúng hạn: theo mức thu lệ phí do Hội đồng nhân dân cấp tỉnh quy định. - Miễn lệ phí đối với trường hợp khai sinh đúng hạn, người thuộc gia đình có công với cách mạng; người thuộc hộ nghèo; người khuyết tật. Người yêu cầu đăng ký khai sinh trực tiếp thực hiện hoặc ủy quyền cho người khác thực hiện nộp hồ sơ trực tiếp tại Trung tâm Phục vụ hành chính công, gửi qua hệ thống bưu chính hoặc nộp hồ sơ trực tuyến tại Cổng dịch vụ công quốc gia (https://dichvucong.gov.vn). Trực tuyến Ngay trong ngày tiếp nhận yêu cầu, trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo. Lệ phí: - Đối với trường hợp đăng ký khai sinh không đúng hạn: theo mức thu lệ phí do Hội đồng nhân dân cấp tỉnh quy định. - Miễn lệ phí đối với tr
+- **Phí**: , lệ phí Mô tả Trực tiếp Ngay trong ngày tiếp nhận yêu cầu, trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo. Lệ phí: - Đối với trường hợp đăng ký khai sinh không đúng hạn: theo mức thu lệ phí do Hội đồng nhân dân cấp tỉnh quy định. - Miễn lệ phí đối với trường hợp khai sinh đúng hạn, người thuộc gia đình có công với cách mạng; người thuộc hộ nghèo; người khuyết tật. Người yêu cầu đăng ký khai sinh trực tiếp thực hiện hoặc ủy quyền cho người khác thực hiện nộp hồ sơ trực tiếp tại Trung tâm Phục vụ hành chính công, gửi qua hệ thống bưu chính hoặc nộp hồ sơ trực tuyến tại Cổng dịch vụ công quốc gia (https://dichvucong.gov.vn). Trực tuyến Ngay trong ngày tiếp nhận yêu cầu, trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo. Lệ phí: - Đối với trường hợp đăng ký khai sinh không đúng hạn: theo mức thu lệ phí do Hội đồng nhân dân cấp tỉnh quy định. - Miễn lệ phí đối với trường
+- **Lệ phí**: : - Đối với trường hợp đăng ký khai sinh không đúng hạn: theo mức thu lệ phí do Hội đồng nhân dân cấp tỉnh quy định. - Miễn lệ phí đối với trường hợp khai sinh đúng hạn, người thuộc gia đình có công với cách mạng; người thuộc hộ nghèo; người khuyết tật. Người yêu cầu đăng ký khai sinh trực tiếp thực hiện hoặc ủy quyền cho người khác thực hiện nộp hồ sơ trực tiếp tại Trung tâm Phục vụ hành chính công, gửi qua hệ thống bưu chính hoặc nộp hồ sơ trực tuyến tại Cổng dịch vụ công quốc gia (https://dichvucong.gov.vn). Trực tuyến Ngay trong ngày tiếp nhận yêu cầu, trường hợp nhận hồ sơ sau 15 giờ mà không giải quyết được ngay thì trả kết quả trong ngày làm việc tiếp theo. Lệ phí: - Đối với trường hợp đăng ký khai sinh không đúng hạn: theo mức thu lệ phí do Hội đồng nhân dân cấp tỉnh quy định. - Miễn lệ phí đối với trường hợp khai sinh đúng hạn, người thuộc gia đình có công với cách mạng; người thuộc hộ nghèo; người khuyết tật. Thủ tục này đủ điều kiện thực hiện dịch vụ công trực tuyến toàn trì
+
+## Kết quả & Căn cứ
+**Kết quả thực hiện**: 
+**Căn cứ pháp lý**:
+
+

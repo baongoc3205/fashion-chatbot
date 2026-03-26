@@ -1,0 +1,35 @@
+# Thủ tục: Đăng ký biến động quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất trong các trường hợp chuyển đổi, chuyển nhượng, cho thuê, cho thuê lại, thừa kế, tặng cho, góp vốn bằng quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất; chuyển quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất của vợ hoặc chồng thành của chung vợ và chồng; tăng thêm diện tích do nhận chuyển nhượng, thừa kế, tặng cho quyền sử dụng đất đã có Giấy chứng nhận (cấp tỉnh -trường hợp đã thành lập VP đăng ký đất đai)
+
+**Nguồn**: [https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=2.000889](https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=2.000889)
+**Danh mục / Đối tượng**: Công dân
+**Lĩnh vực**: 
+**Cơ quan thực hiện**: Văn phòng đăng ký đất đai Chi nhánh Văn phòng đăng ký đất đai Yêu cầu, điều kiện thực hiện (1) Có Giấy chứng nhận (trừ trường hợp tất cả người nhận thừa kế quyền sử dụng đất, quyền sở hữu nhà ở, tài sản khác gắn liền với đất đều là người nước ngoài hoặc người Việt Nam định cư ở nước ngoài không thuộc đối tượng được mua nhà ở gắn liền với quyền sử dụng đất ở tại Việt Nam). Trường hợp người sử dụng đất được chậm thực hiện nghĩa vụ tài chính hoặc được ghi nợ nghĩa vụ tài chính thì phải thực hiện xong nghĩa vụ tài chính trước khi thực hiện các quyền. (2) Đất không có tranh chấp. (3) Quyền sử dụng đất không bị kê biên để bảo đảm thi hành án. (4) Trong thời hạn sử dụng đất. (5) Ngoài các điều kiện nêu tại các điểm (1), (2), (3) và (4) trên đây, còn phải đủ điều kiện sau: (5.1) Điều kiện bán, mua tài sản gắn liền với đất được Nhà nước cho thuê thu tiền thuê đất hàng năm - Tổ chức kinh tế, hộ gia đình, cá nhân, người Việt Nam định cư ở nước ngoài, doanh nghiệp có vốn đầu tư nước ngoài được bá
+**Địa chỉ tiếp nhận**: 
+
+## Yêu cầu cơ bản
+**Cách thức thực hiện**:
+Hình thức nộp Thời hạn giải quyết Phí, lệ phí Mô tả Trực tiếp 10 Ngày làm việc Phí: Đồng Xem chi tiết Cách thức thực hiện: Người sử dụng đất nộp hồ sơ tại Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai hoặc cơ quan tiếp nhận hồ sơ theo quy định của Ủy ban nhân dân cấp tỉnh hoặc địa điểm theo nhu cầu đối với những địa phương mà Ủy ban nhân dân cấp tỉnh đã ban hành quy chế tiếp nhận, luân chuyển hồ sơ, giải quyết và trả kết quả giải quyết thủ tục theo nhu cầu về địa điểm hoặc trên môi trường điện tử. Hộ gia đình, cá nhân, cộng đồng dân cư nộp hồ sơ tại Ủy ban nhân dân cấp xã nếu có nhu cầu. Thời hạn giải quyết: Do Ủy ban nhân dân cấp tỉnh quy định. Cụ thể: + Thời gian thực hiện thủ tục đăng ký biến động quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất trong trường hợp chuyển đổi, chuyển nhượng, thừa kế, tặng cho, đăng ký góp vốn bằng quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất là không quá 10 ngày kể từ ngày nhận được hồ sơ hợp lệ; + Thời gian th
+
+**Đối tượng thực hiện**:
+
+
+## Trình tự & Hồ sơ
+### Trình tự thực hiện
+Trực tiếp (1) Người sử dụng đất nộp hồ sơ tại Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai hoặc cơ quan tiếp nhận hồ sơ theo quy định của Ủy ban nhân dân cấp tỉnh hoặc địa điểm theo nhu cầu đối với những địa phương mà Ủy ban nhân dân cấp tỉnh đã ban hành quy chế tiếp nhận, luân chuyển hồ sơ, giải quyết và trả kết quả giải quyết thủ tục theo nhu cầu về địa điểm. Hộ gia đình, cá nhân, cộng đồng dân cư nộp hồ sơ tại Ủy ban nhân dân cấp xã nếu có nhu cầu. Trường hợp thực hiện quyền của người sử dụng đất đối với một phần thửa đất thì người sử dụng đất đề nghị Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai thực hiện đo đạc tách thửa đối với phần diện tích cần thực hiện quyền của người sử dụng đất trước khi nộp hồ sơ thực hiện quyền của người sử dụng đất. Trường hợp nhận hồ sơ chưa đầy đủ, chưa hợp lệ thì trong thời gian tối đa 03 ngày, cơ quan tiếp nhận, xử lý hồ sơ phải thông báo và hướng dẫn người nộp hồ sơ bổ sung, hoàn chỉnh hồ sơ theo quy định.
+
+### Thành phần hồ sơ
+c.1) Hồ sơ nộp khi thực hiện đăng ký biến động quyền sử dụng đất,... Tên giấy tờ Mẫu đơn, tờ khai Số lượng (1) Đơn đăng ký biến động đất đai, tài sản gắn liền với đất theo Mẫu số 09/ĐK. Đối với trường hợp hộ gia đình, cá nhân nhận chuyển quyền sử dụng đất nông nghiệp thì phải thể hiện tổng diện tích nhận chuyển quyền tại điểm 4 Mục I của Mẫu số 09/ĐK (được sửa đổi, bổ sung tại Thông tư số 14/2023/TT-BTNMT ngày 16 tháng 10 năm 2023) (Lý do biến động) như sau: “Nhận … (ghi hình thức chuyển quyền sử dụng đất) …m2 đất (ghi diện tích đất nhận chuyển quyền); tổng diện tích đất nông nghiệp đang sử dụng do nhận chuyển quyền và đã đăng ký chuyển quyền sử dụng đất từ ngày 01/7/2007 đến trước ngày 01/7/2014 là … m2 và từ ngày 01/7/2014 đến nay là … m2 (ghi cụ thể diện tích nhận chuyển quyền theo từng loại đất, từng địa bàn tỉnh, thành phố trực thuộc Trung ương)”; mau so 09-ĐK.docx Bản chính: 1 - Bản sao: 0 (2) Hợp đồng, văn bản về việc chuyển đổi, chuyển nhượng, cho thuê, cho thuê lại, thừa kế,
+
+### Yêu cầu - điều kiện
+
+
+## Chi phí & Thời gian
+- **Thời hạn giải quyết**: Phí, lệ phí Mô tả Trực tiếp 10 Ngày làm việc Phí: Đồng Xem chi tiết Cách thức thực hiện: Người sử dụng đất nộp hồ sơ tại Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai hoặc cơ quan tiếp nhận hồ sơ theo quy định của Ủy ban nhân dân cấp tỉnh hoặc địa điểm theo nhu cầu đối với những địa phương mà Ủy ban nhân dân cấp tỉnh đã ban hành quy chế tiếp nhận, luân chuyển hồ sơ, giải quyết và trả kết quả giải quyết thủ tục theo nhu cầu về địa điểm hoặc trên môi trường điện tử. Hộ gia đình, cá nhân, cộng đồng dân cư nộp hồ sơ tại Ủy ban nhân dân cấp xã nếu có nhu cầu. Thời hạn giải quyết: Do Ủy ban nhân dân cấp tỉnh quy định. Cụ thể: + Thời gian thực hiện thủ tục đăng ký biến động quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất trong trường hợp chuyển đổi, chuyển nhượng, thừa kế, tặng cho, đăng ký góp vốn bằng quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất là không quá 10 ngày kể từ ngày nhận được hồ sơ hợp lệ; + Thời gian thực hiện thủ tục đăng ký biến động
+- **Phí**: , lệ phí Mô tả Trực tiếp 10 Ngày làm việc Phí: Đồng Xem chi tiết Cách thức thực hiện: Người sử dụng đất nộp hồ sơ tại Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai hoặc cơ quan tiếp nhận hồ sơ theo quy định của Ủy ban nhân dân cấp tỉnh hoặc địa điểm theo nhu cầu đối với những địa phương mà Ủy ban nhân dân cấp tỉnh đã ban hành quy chế tiếp nhận, luân chuyển hồ sơ, giải quyết và trả kết quả giải quyết thủ tục theo nhu cầu về địa điểm hoặc trên môi trường điện tử. Hộ gia đình, cá nhân, cộng đồng dân cư nộp hồ sơ tại Ủy ban nhân dân cấp xã nếu có nhu cầu. Thời hạn giải quyết: Do Ủy ban nhân dân cấp tỉnh quy định. Cụ thể: + Thời gian thực hiện thủ tục đăng ký biến động quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất trong trường hợp chuyển đổi, chuyển nhượng, thừa kế, tặng cho, đăng ký góp vốn bằng quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất là không quá 10 ngày kể từ ngày nhận được hồ sơ hợp lệ; + Thời gian thực hiện thủ tục đăng ký biến động quyề
+- **Lệ phí**: 
+
+## Kết quả & Căn cứ
+**Kết quả thực hiện**: 
+**Căn cứ pháp lý**:
+
+

@@ -1,0 +1,35 @@
+# Thủ tục: Giao đất, cho thuê đất, chuyển mục đích sử dụng đất đối với trường hợp giao đất, cho thuê đất không đấu giá quyền sử dụng đất, không đấu thầu lựa chọn nhà đầu tư thực hiện dự án có sử dụng đất; trường hợp giao đất, cho thuê đất thông qua đấu thầu lựa chọn nhà đầu tư thực hiện dự án có sử dụng đất; giao đất và giao rừng; cho thuê đất và cho thuê rừng, gia hạn sử dụng đất khi hết thời hạn sử dụng đất
+
+**Nguồn**: [https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.013949](https://dichvucong.gov.vn/p/home/dvc-chi-tiet-thu-tuc-hanh-chinh.html?ma_thu_tuc=1.013949)
+**Danh mục / Đối tượng**: Công dân
+**Lĩnh vực**: 
+**Cơ quan thực hiện**: Chi nhánh Văn phòng đăng ký đất đai Chủ tịch Ủy ban nhân dân xã Văn phòng đăng ký đất đai Yêu cầu, điều kiện thực hiện a) Điều kiện chung: Điều kiện chung đối với người được Nhà nước giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất: - Ký quỹ hoặc các hình thức bảo đảm khác theo quy định của pháp luật về đầu tư. - Có năng lực tài chính để bảo đảm việc sử dụng đất theo tiến độ của dự án đầu tư và điều kiện khác theo quy định của pháp luật có liên quan. - Không vi phạm quy định của pháp luật về đất đai hoặc có vi phạm quy định của pháp luật về đất đai nhưng đã chấp hành xong quyết định, bản án đã có hiệu lực pháp luật của cơ quan có thẩm quyền tại thời điểm đề nghị giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất. Việc xác định người sử dụng đất vi phạm quy định của pháp luật về đất đai áp dụng đối với tất cả các thửa đất đang sử dụng trên địa bàn cả nước. b) Ngoài điều kiện chung tại điểm a, cần thêm điều kiện đối với một số trường hợp cụ thể như sau: - Đối với t
+**Địa chỉ tiếp nhận**: 
+
+## Yêu cầu cơ bản
+**Cách thức thực hiện**:
+Hình thức nộp Thời hạn giải quyết Phí, lệ phí Mô tả Trực tiếp 15 Ngày Phí: Đồng Xem chi tiết Trực tiếp 25 Ngày Phí: Đồng Xem chi tiết Đối với các xã miền núi, biên giới; đảo; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 25 ngày. Trực tuyến 15 Ngày Phí: Đồng Xem chi tiết Trực tuyến 25 Ngày Phí: Đồng Xem chi tiết Đối với các xã miền núi, biên giới; đảo; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 25 ngày. Dịch vụ bưu chính 15 Ngày Phí: Đồng Xem chi tiết Dịch vụ bưu chính 25 Ngày Phí: Đồng Xem chi tiết Đối với các xã miền núi, biên giới; đảo; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 25 ngày. Thành phần hồ sơ a) Thành phần hồ sơ giao đất, cho thuê đất không thông qua hình thức... Tên giấy tờ Mẫu đơn, tờ khai Số lượng Đơn theo M
+
+**Đối tượng thực hiện**:
+
+
+## Trình tự & Hồ sơ
+### Trình tự thực hiện
+Bước 1: Người đề nghị nộp hồ sơ đến Trung tâm Phục vụ hành chính công. Khi nộp hồ sơ, người nộp hồ sơ được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra, đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực. Trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực. Trường hợp Trung tâm Phục vụ hành chính công tiếp nhận hồ sơ thì chuyển hồ sơ đến cơ quan chuyên môn về nông nghiệp và môi trường cấp xã. Bước 2: Cơ quan chuyên môn về nông nghiệp và môi trường cấp xã thực hiện: - Đề nghị Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai cung cấp thông tin về cơ sở dữ liệu đất đai, lập trích lục bản đồ địa chính thửa đất đối với trường hợp hồ sơ đầy đủ và hợp lệ. - Hướng dẫn người nộp hồ sơ bổ sung trích đo địa chính thửa đất đối với thửa đất tại nơi chư
+
+### Thành phần hồ sơ
+a) Thành phần hồ sơ giao đất, cho thuê đất không thông qua hình thức... Tên giấy tờ Mẫu đơn, tờ khai Số lượng Đơn theo Mẫu số 01 Mus01.docx Bản chính: 1 - Bản sao: 1 - Phương án sử dụng tầng đất mặt theo Mẫu số 26 ban hành kèm theo Nghị định số 151/2025/NĐ-CP (đối với trường hợp chuyển mục đích sử dụng đất chuyên trồng lúa); Mus26.docx Bản chính: 1 - Bản sao: 1 Dự án đầu tư đối với khu rừng đề nghị giao; báo cáo điều tra, đánh giá hiện trạng rừng và bản đồ hiện trạng rừng theo quy định của pháp luật về lâm nghiệp (đối với trường hợp đề nghị giao đất và giao rừng); Bản chính: 1 - Bản sao: 1 Kết quả đấu giá thuê rừng; biên bản đấu giá cho thuê rừng; danh sách người trúng đấu giá thuê rừng; thông báo hoàn thành nghĩa vụ tài chính đối với người trúng đấu giá thuê rừng (đối với trường hợp cho thuê đất và cho thuê rừng). Bản chính: 1 - Bản sao: 1 Một trong các loại giấy tờ sau: + Bản sao văn bản phê duyệt dự án đầu tư, quyết định chấp thuận chủ trương đầu tư, quyết định chấp thuận chủ trươn
+
+### Yêu cầu - điều kiện
+
+
+## Chi phí & Thời gian
+- **Thời hạn giải quyết**: Phí, lệ phí Mô tả Trực tiếp 15 Ngày Phí: Đồng Xem chi tiết Trực tiếp 25 Ngày Phí: Đồng Xem chi tiết Đối với các xã miền núi, biên giới; đảo; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 25 ngày. Trực tuyến 15 Ngày Phí: Đồng Xem chi tiết Trực tuyến 25 Ngày Phí: Đồng Xem chi tiết Đối với các xã miền núi, biên giới; đảo; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 25 ngày. Dịch vụ bưu chính 15 Ngày Phí: Đồng Xem chi tiết Dịch vụ bưu chính 25 Ngày Phí: Đồng Xem chi tiết Đối với các xã miền núi, biên giới; đảo; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 25 ngày. Thành phần hồ sơ a) Thành phần hồ sơ giao đất, cho thuê đất không thông qua hình thức... Tên giấy tờ Mẫu đơn, tờ khai Số lượng Đơn theo Mẫu số 01 Mus01.docx Bản chính: 1 -
+- **Phí**: , lệ phí Mô tả Trực tiếp 15 Ngày Phí: Đồng Xem chi tiết Trực tiếp 25 Ngày Phí: Đồng Xem chi tiết Đối với các xã miền núi, biên giới; đảo; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 25 ngày. Trực tuyến 15 Ngày Phí: Đồng Xem chi tiết Trực tuyến 25 Ngày Phí: Đồng Xem chi tiết Đối với các xã miền núi, biên giới; đảo; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 25 ngày. Dịch vụ bưu chính 15 Ngày Phí: Đồng Xem chi tiết Dịch vụ bưu chính 25 Ngày Phí: Đồng Xem chi tiết Đối với các xã miền núi, biên giới; đảo; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 25 ngày. Thành phần hồ sơ a) Thành phần hồ sơ giao đất, cho thuê đất không thông qua hình thức... Tên giấy tờ Mẫu đơn, tờ khai Số lượng Đơn theo Mẫu số 01 Mus01.docx Bản chính: 1 - Bản
+- **Lệ phí**: 
+
+## Kết quả & Căn cứ
+**Kết quả thực hiện**: 
+**Căn cứ pháp lý**:
+
+

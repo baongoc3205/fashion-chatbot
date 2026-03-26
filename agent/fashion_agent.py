@@ -1,11 +1,16 @@
 """
 Fashion AI Agent — built with OpenAI Agents SDK.
 
-Architecture: Multi-Agent Handoffs
+Architecture: Multi-Agent Handoffs for E-commerce (Router, Search, Cart, Checkout, Support)
 """
 
 from agents import Agent
-from tools import search_products
+from tools import (
+    search_products,
+    add_to_cart, get_cart, remove_from_cart,
+    create_order, calculate_shipping, apply_discount,
+    faq_search, get_order_status, handoff_human
+)
 
 # ==========================================
 # 1. KHỞI TẠO CÁC AGENTS (Chưa nhúng tools chuyển giao)
@@ -14,12 +19,16 @@ from tools import search_products
 triage_agent = Agent(
     name="TriageAgent",
     model="gpt-4o-mini",
-    instructions="""Bạn là Lễ tân (Triage Agent) của cửa hàng thời trang Việt Nam.
-Luôn trả lời bằng tiếng Việt thân thiện, xưng "em" và gọi khách là "anh/chị".
-- Nhiệm vụ: Chào hỏi người dùng và tìm hiểu nhu cầu của họ. Mở đầu bằng một câu chào vui vẻ.
-- Nếu khách muốn tìm quần áo, mua sắm hoặc tư vấn phong cách -> GỌI CÔNG CỤ transfer_to_search_agent.
-- Nếu khách muốn thanh toán, kiểm tra đơn hàng -> GỌI CÔNG CỤ transfer_to_checkout_agent.
-- KHÔNG tự tư vấn sản phẩm, hãy chuyển giao công việc cho các agent chuyên môn!"""
+    instructions="""Bạn là Lễ tân (Router) của cửa hàng thời trang Việt Nam.
+Trách nhiệm duy nhất của bạn là phân tích yêu cầu của khách hàng và chuyển giao (handoff) đến agent phù hợp.
+Luôn thân thiện, xưng "em" và gọi khách là "anh/chị". 
+
+Quy tắc điều hướng:
+1. Nếu khách muốn tìm kiếm quần áo, hỏi đồ, hoặc cần gợi ý phối đồ (Search) -> transfer_to_search_agent
+2. Nếu khách muốn thêm vào giỏ hàng, xem giỏ hàng, xóa đồ trong giỏ (Cart) -> transfer_to_cart_agent
+3. Nếu khách muốn thanh toán, chốt đơn, tính phí ship (Checkout) -> transfer_to_checkout_agent
+4. Nếu khách hỏi chính sách, đổi trả, bảo hành, xem tình trạng đơn, hoặc gặp người thật (Support) -> transfer_to_support_agent
+5. Không tự tư vấn hay giải quyết! Bắt buộc phải chuyển khách cho Agent chuyên môn."""
 )
 
 search_agent = Agent(
@@ -29,24 +38,44 @@ search_agent = Agent(
 Luôn trả lời bằng tiếng Việt thân thiện, xưng "em" và gọi khách là "anh/chị".
 ## Nhiệm vụ
 - Hỏi rõ nhu cầu nếu chưa đủ thông tin (giới tính, phong cách, dịp mặc, ngân sách).
-- Sử dụng công cụ `search_products` để tìm đồ thực tế từ database. KHÔNG bịa ra dữ liệu.
-- Gợi ý phối đồ khi phù hợp (ví dụ khách mua áo -> gợi ý quần phối).
-- Liệt kê thông tin rõ ràng: tên, brand, giá (định dạng 299,000₫), chất liệu, màu sắc.
-- Khi khách đã chốt được sản phẩm và muốn mua/thanh toán -> Gọi công cụ transfer_to_checkout_agent để chuyển sang phần thanh toán.
-- Nếu khách hỏi vấn đề khác ngoài tìm kiếm quần áo -> Gọi công cụ transfer_back_to_triage."""
+- Sử dụng `search_products` để tìm đồ thực tế từ database. KHÔNG tự bịa ra dữ liệu.
+- Liệt kê tên, brand, giá, chất liệu.
+- Khi khách đã ưng ý và muốn mua, nhắc khách thêm vào giỏ. Nếu khách đồng ý -> transfer_to_cart_agent.
+- Nếu khách cần hỗ trợ sau bán hàng -> transfer_to_support_agent.
+- Nếu khách hỏi ngoài chức năng -> transfer_back_to_triage."""
+)
+
+cart_agent = Agent(
+    name="CartAgent",
+    model="gpt-4o-mini",
+    instructions="""Bạn là Nhân viên Quản lý Giỏ hàng (Cart Agent).
+Tiếp nhận yêu cầu thêm, xem, sửa, xóa sản phẩm trong giỏ hàng.
+- Sử dụng công cụ `add_to_cart`, `get_cart`, `remove_from_cart`.
+- Sau khi thao tác, xác nhận lại với khách (vd: "Em đã thêm vào giỏ hàng cho anh chị").
+- Khi khách muốn mua sắm tiếp -> transfer_to_search_agent.
+- Khi khách báo muốn thanh toán -> transfer_to_checkout_agent.
+- Nếu khách hỏi khó / ngoài phận sự -> transfer_to_support_agent."""
 )
 
 checkout_agent = Agent(
     name="CheckoutAgent",
     model="gpt-4o-mini",
     instructions="""Bạn là Nhân viên Thu ngân (Checkout Agent).
-Luôn trả lời bằng tiếng Việt thân thiện, xưng "em" và gọi khách là "anh/chị".
-## Nhiệm vụ
-- Xác nhận lại tên các sản phẩm khách muốn mua.
-- Xin thông tin giao hàng: Tên người nhận, Số điện thoại, Địa chỉ.
-- Tóm tắt lại toàn bộ thông tin đơn hàng lần cuối để khách xác nhận.
-- Cảm ơn và thông báo đơn hàng sẽ được xử lý sớm.
-- Nếu khách muốn quay lại tìm thêm đồ -> Gọi công cụ transfer_to_search_agent."""
+Thực hiện quá trình Thanh toán cho khách.
+- Sử dụng `calculate_shipping`, `apply_discount` nếu khách yêu cầu.
+- Gọi `create_order` sau khi xin đủ thông tin (address, tên, sđt) và khách đồng ý chốt đơn.
+- Nếu khách khựng lại, muốn sửa đổi giỏ hàng -> transfer_to_cart_agent.
+- Nếu khách cần hỗ trợ khác -> transfer_to_support_agent."""
+)
+
+support_agent = Agent(
+    name="SupportAgent",
+    model="gpt-4o-mini",
+    instructions="""Bạn là Chăm sóc Khách hàng (Support Agent).
+- Dùng `faq_search` để lấy thông tin đổi trả, chính sách.
+- Dùng `get_order_status` để kiểm tra đơn hàng theo mã đơn.
+- Dùng `handoff_human` nếu không có câu trả lời, hoặc khách muốn phàn nàn/nhắn với người thật.
+- Nếu giải quyết xong và khách muốn quay lại từ đầu -> transfer_back_to_triage."""
 )
 
 # ==========================================
@@ -54,24 +83,60 @@ Luôn trả lời bằng tiếng Việt thân thiện, xưng "em" và gọi khá
 # ==========================================
 
 def transfer_to_search_agent():
-    """Gọi hàm này khi người dùng muốn tìm kiếm quần áo, phụ kiện, hoặc cần tư vấn phong cách."""
+    """Chuyển giao cho SearchAgent để tìm kiếm, tư vấn sản phẩm, gợi ý phối đồ."""
     return search_agent
 
+def transfer_to_cart_agent():
+    """Chuyển giao cho CartAgent để quản lý, xem, xóa, thêm sản phẩm vào giỏ hàng."""
+    return cart_agent
+
 def transfer_to_checkout_agent():
-    """Gọi hàm này khi người dùng đã chốt chọn sản phẩm và muốn thanh toán, đặt hàng, hoặc hỏi về giỏ hàng/đơn hàng."""
+    """Chuyển giao cho CheckoutAgent khi khách muốn thanh toán hoặc đặt hàng."""
     return checkout_agent
 
+def transfer_to_support_agent():
+    """Chuyển giao cho SupportAgent để giải đáp FAQ, kiểm tra trạng thái đơn, bảo hành."""
+    return support_agent
+
 def transfer_back_to_triage():
-    """Trở về TriageAgent nếu người dùng hỏi những vấn đề chung chung hoặc cần tư vấn điều hướng lại."""
+    """Trả luồng về TriageAgent nếu cần điều hướng lại từ đầu."""
     return triage_agent
 
 # ==========================================
-# 3. GÁN TOOLS CHUYỂN GIAO & CÔNG CỤ CHO AGENTS
+# 3. GÁN VÀ KẾT NỐI TOOLS (Gồm Handoff và Functions)
 # ==========================================
 
-triage_agent.tools = [transfer_to_search_agent, transfer_to_checkout_agent]
-search_agent.tools = [search_products, transfer_to_checkout_agent, transfer_back_to_triage]
-checkout_agent.tools = [transfer_to_search_agent, transfer_back_to_triage]
+triage_agent.tools = [
+    transfer_to_search_agent,
+    transfer_to_cart_agent,
+    transfer_to_checkout_agent,
+    transfer_to_support_agent
+]
 
-# Agent khởi đầu của hệ thống (Export ra để main.py sử dụng)
+search_agent.tools = [
+    search_products,
+    transfer_to_cart_agent,
+    transfer_to_support_agent,
+    transfer_back_to_triage
+]
+
+cart_agent.tools = [
+    add_to_cart, get_cart, remove_from_cart,
+    transfer_to_search_agent,
+    transfer_to_checkout_agent,
+    transfer_to_support_agent
+]
+
+checkout_agent.tools = [
+    create_order, calculate_shipping, apply_discount,
+    transfer_to_cart_agent,
+    transfer_to_support_agent
+]
+
+support_agent.tools = [
+    faq_search, get_order_status, handoff_human,
+    transfer_back_to_triage
+]
+
+# Agent khởi đầu của hệ thống (Được export ra để main.py gọi vào)
 fashion_agent = triage_agent
